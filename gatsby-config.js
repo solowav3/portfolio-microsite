@@ -53,6 +53,7 @@ module.exports = {
         icon: `src/assets/favicon.png`,
       },
     },
+    pathPrefix: `/portfolio-microsite`
     // {
     //   resolve: `gatsby-plugin-netlify-cms`,
     //   options: {
