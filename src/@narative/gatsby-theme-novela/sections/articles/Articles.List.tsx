@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 
 import Headings from '@components/Headings';
 import Image, { ImagePlaceholder } from '@components/Image';
@@ -99,7 +99,7 @@ const ListItem: React.FC<ArticlesListItemProps> = ({ article, narrow }) => {
     imageSource.constructor === Object;
   
   return (
-    <ArticleLink to={article.author} data-a11y="false">
+    <a href={article.author} data-a11y="false">
       <Item gridLayout={gridLayout}>
         <ImageContainer narrow={narrow} gridLayout={gridLayout}>
           {hasHeroImage ? <Image src={imageSource} /> : <ImagePlaceholder />}
@@ -120,7 +120,7 @@ const ListItem: React.FC<ArticlesListItemProps> = ({ article, narrow }) => {
           </MetaData>
         </div>
       </Item>
-    </ArticleLink>
+    </a>
   );
 };
 
@@ -356,7 +356,7 @@ const MetaData = styled.div`
   `}
 `;
 
-const ArticleLink = styled(Link)`
+const ArticleLink = styled.a`
   position: relative;
   display: block;
   width: 100%;
