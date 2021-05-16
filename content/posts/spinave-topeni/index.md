@@ -1,9 +1,9 @@
 ---
-title: My first post using Novela by Narative
-author: Dennis Brotzky
-date: 2019-04-30
+title: Radiator Cleaning Services Landing Page for SANY s.r.o.
+author: https://spinavetopeni.cz/
+date: 2020-09-11
 hero: ./images/hero.jpg
-excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+excerpt: Building a customer base for a newly established service.
 ---
 
 My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.

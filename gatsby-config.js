@@ -1,29 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
+    title: `Filip Solovjev Portfolio`,
+    name: `Filip Solovjev`,
+    siteUrl: `https://filipsolo.com`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to my</br>projects page.`,
       maxWidth: 652,
     },
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/narative`,
-      },
-      {
-        name: `github`,
-        url: `https://github.com/narative`,
-      },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        name: `mailto`,
+        url: `mailto:filip.solovjev@gmail.com`,
       },
       {
         name: `linkedin`,
         url: `https://www.linkedin.com/company/narative/`,
+      },
+      {
+        name: `instagram`,
+        url: `https://instagram.com/narative.co`,
       },
       {
         name: `dribbble`,
@@ -38,7 +34,7 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
-        authorsPage: true,
+        authorsPage: false,
         sources: {
           local: true,
           // contentful: true,
@@ -57,10 +53,10 @@ module.exports = {
         icon: `src/assets/favicon.png`,
       },
     },
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-netlify-cms`,
+    //   options: {
+    //   },
+    // },
   ],
 };
